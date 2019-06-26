@@ -91,3 +91,4 @@ typings/
 /charts/
 /azds.yaml
 /.dockerignore
+.idea/
