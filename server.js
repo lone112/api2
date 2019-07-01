@@ -2,7 +2,7 @@ var restify = require('restify')
 const os = require('os')
 
 function respond (req, res, next) {
-  res.send('HI ' + req.params.name + ' from ' + os.hostname())
+  res.send('HI ' + req.params.name + ' from MAC: ' + os.hostname())
   next()
 }
 
